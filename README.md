@@ -1,5 +1,5 @@
 ## Run instructions
-To run this , open a terminal or equivalant, and make sure you are in the same folder as drinks.py.
+To run this, open a terminal and make sure you are in the same folder as drinks.py.
 And run with below command:
 
 `export FLASK_APP=drinks`
@@ -9,6 +9,8 @@ And run with below command:
 If your machine does not have Flask installed. Please install Flask with:
 
 `pip install Flask`
+
+If `pip` is not installed, please follow instructions to install `pip` here: https://pip.pypa.io/en/stable/installation/ 
 
 ## Some assumptions on top of the task requirements
 - Assuming empty object from the public API is either empty dictionary {} or with insufficient keys in the dictionary. 
