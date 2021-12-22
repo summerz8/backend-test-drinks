@@ -160,6 +160,9 @@ def queryDrinks():
         elif drinkType == "beer":
             response = jsonify(getBeerData())
             response.status_code = 200
+        elif drinkType == "":
+            response = jsonify(getAllDrinksData())
+            response.status_code = 200
         else:
             response = jsonify("Please enter type either <coffee> or <beer>.")
             response.status_code = 500
